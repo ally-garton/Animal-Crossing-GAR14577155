@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+
+<head>
+	<title>Animal Crossing - Create</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/fonts/arvo/arvoregular.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts/robotoslab/robotoslab.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+	<script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+	<script src="js/html2canvas.js"></script>
+	<script src="js/jquery.plugin.html2canvas.js"></script>
+	<script src="js/script.js"></script>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="clouds">
+			<div class="cloud1"><img src="assets/clouds/cloud.png" alt="Cloud"></div>
+			<div class="cloud2"><img src="assets/clouds/cloud.png" alt="Cloud"></div>
+			<div class="cloud3"><img src="assets/clouds/cloud.png" alt="Cloud"></div>
+			<div class="cloud4"><img src="assets/clouds/cloud.png" alt="Cloud"></div>
+			<div class="cloud5"><img src="assets/clouds/cloud.png" alt="Cloud"></div>
+			<div class="cloud6"><img src="assets/clouds/cloud.png" alt="Cloud"></div>
+			<div class="cloud7"><img src="assets/clouds/cloud.png" alt="Cloud"></div>
+		</div>
+		
+		<header id="header">
+			<div id="banner">
+				<img src="assets/banners/new_banner.jpg" alt="Title Banner">
+			</div>
+			
+			<div id="menu">
+				<nav>
+					<ul class="nav">
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="titles.html">Titles</a>
+						</li>
+						<li class="dropdown">
+							<a href="amiibo.html">Amiibo</a>
+							<ul class="drop_menu">
+								<li>
+									<a href="amiibo_figures.html">Figures</a>
+								</li>
+								<li>
+									<a href="amiibo_cards.html">Cards</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="profiles.html">Profiles</a>
+						</li>
+						<li>
+							<a href="links.html">Links</a>
+						</li>
+						<li id="video_tab">
+							<a href="videos.html">Videos</a>
+						</li>
+						<li id="create_tab">
+							<a href="create.html">Create</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		
+		<section id="create_page">
+			<div id="create_text">
+				<h1>Create</h1>
+				<h3>Use this page to create your own "new Nintendo 3DS" cover plate!</h3>
+			</div>
+			
+			<div id="target">
+				<img id="droppable" class="ui-widget-header" src="assets/backgrounds/blank_cover_plates.jpg" alt="Blank cover plates">
+				<div id="drag_inventory">
+					<img class="draggable" src="assets/icons/apple.png" alt="Apple icon">
+					<img class="draggable" src="assets/icons/pear.png" alt="Pear icon">
+					<img class="draggable" src="assets/icons/banana.png" alt="Banana icon">
+					<img class="draggable" src="assets/icons/cherry.png" alt="Cherry icon">
+					<img class="draggable" src="assets/icons/orange.png" alt="Orange icon">
+					<img class="draggable" src="assets/icons/gyroid.png" alt="Gyroid icon">
+					<img class="draggable" src="assets/icons/isabelle.png" alt="Isabelle icon">
+					<img class="draggable" src="assets/icons/pitfall.png" alt="Pitfall icon">
+					<img class="draggable" src="assets/icons/fossil.png" alt="Fossil icon">
+					<img class="draggable" src="assets/icons/bells.png" alt="Bells icon">
+				</div>
+			</div>
+			
+			<div id="capturebtn_div">
+				<input type="submit" id="capture_btn" value="Capture my cover plates!" onclick="capture();clickCounter()" />
+			
+				<div id="click_counter">
+				</div>
+			</div>
+			
+
+		</section>
+		
+		<section id="create_info">
+			<div id="create_info_text">
+				<h3>Drag and drop the icons to decorate your own new Nintendo 3DS cover plates!</h3>
+				<h4>Click "Capture my cover plates!" when you're finished, and save your image.</h4>
+				<h5>Refresh the page to start again!</h5>
+			</div>
+		</section>
+		
+		<footer class="footer" id="create_footer">
+			<div id="media">
+				<figure class="medialinks">
+					<a href="https://www.facebook.com/AnimalCrossingUK/?brand_redir=149282005242916" target="_blank">
+						<img src="assets/social_media/facebook.png" alt="Facebook">
+					</a>
+				</figure>
+				<figure class="medialinks">
+					<a href="https://twitter.com/AC_Isabelle?lang=en-gb" target="_blank">
+						<img src="assets/social_media/twitter.png" alt="Twitter">
+					</a>
+				</figure>
+				<figure class="medialinks">
+					<a href="https://www.instagram.com/nintendouk/?hl=en" target="_blank">
+						<img src="assets/social_media/insta.png" alt="Instagram">
+					</a>
+				</figure>
+			</div>
+		</footer>
+	</div>
+</body>
