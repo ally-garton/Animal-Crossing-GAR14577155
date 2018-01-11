@@ -243,6 +243,19 @@ html {
 }
 
 #home_text h1 {
+	margin-bottom: 0;
+}
+
+#home_text h2 {
+	margin: 0;
+}
+
+#home_text a {
+	position: relative;
+	z-index: 999;
+	text-decoration: none;
+	font-size: 4rem;
+	color: #7C4A1B;
 	margin-bottom: 1.5rem;
 }
 
@@ -1135,6 +1148,43 @@ html {
 }
 
 
+/* report styles */
+#report_page {
+	width: 175rem;
+	margin: 0 auto;
+	background-color: #FAF0CA;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 47.3rem; 
+	border-radius: 2rem;
+}
+
+#report_text {
+	font-size: 6rem;
+	text-align: center;
+	font-family: "arvoregular";
+	color: #7C4A1B;
+}
+
+#report_text h1 {
+	margin-bottom: 1.5rem;
+}
+
+#report_embed {
+	text-align: center;
+}
+
+#report_embed object {
+	width: 75rem;
+	height: 103rem;
+}
+
+#report_footer {
+	top: 155.9rem;
+}
+
+
 
 @media only screen and (max-width: 2500px) {
 	#clouds {
@@ -1250,7 +1300,7 @@ html {
 
 	#history {
 		width: 125rem;
-		top: 89.7rem; 
+		top: 97.5rem; 
 	}
 
 	#historytext h1 {
@@ -1283,7 +1333,7 @@ html {
 	}
 	
 	#home_footer {
-		top: 175.1rem;
+		top: 182.9rem;
 	}
 
 	.medialinks {
@@ -1721,6 +1771,27 @@ html {
 	#create_footer {
 		top: 225rem;
 	}
+	
+	
+	/* report styles */
+	
+	#report_page {
+		width: 125rem;
+		top: 35.5rem; 
+	}
+
+	#report_text {
+		font-size: 5rem;
+	}
+	
+	#report_embed object {
+		width: 60rem;
+		height: 82rem;
+	}
+	
+	#report_footer {
+		top: 128.3rem;
+	}
 }
 
 
@@ -1823,7 +1894,7 @@ html {
 
 	#history {
 		width: 100rem;
-		top: 131.8rem; 
+		top: 139.1rem; 
 		border-radius: 1.5rem;
 	}
 
@@ -1860,7 +1931,7 @@ html {
 	}
 
 	#home_footer {
-		top: 222rem; 
+		top: 229.3rem; 
 	}
 
 	#media {
@@ -2284,6 +2355,22 @@ html {
 		top: 181.3rem;
 	}
 	
+	
+	/* report styles */
+	
+	#report_page {
+		width: 100rem;
+		top: 29.7rem; 
+		border-radius: 1.5rem;
+	}
+
+	#report_text {
+		font-size: 4.75rem;
+	}
+	
+	#report_footer {
+		top: ;
+	}
 }
 
 
@@ -2402,7 +2489,7 @@ html {
 
 	#history {
 		width: 60rem;
-		top: 204.2rem; 
+		top: 212rem; 
 		border-radius: 1.5rem;
 	}
 
@@ -2436,7 +2523,7 @@ html {
 	}
 
 	#home_footer {
-		top: 309.8rem; 
+		top: 317.6rem; 
 	}
 
 	.medialinks {
@@ -2853,5 +2940,31 @@ html {
 	
 	#create_footer {
 		top: 180.5rem;
+	}
+	
+	
+	/* report styles */
+	
+	#report_page {
+		width: 60rem;
+		top: 27.6rem; 
+		border-radius: 1.5rem;
+	}
+
+	#report_text {
+		font-size: 4.25rem;
+	}
+
+	#report_text h1 {
+		margin-bottom: 1.5rem;
+	}
+	
+	#report_embed object {
+		width: 45rem;
+		height: 61rem;
+	}
+	
+	#report_footer {
+		top: 103.6rem;
 	}
 }
