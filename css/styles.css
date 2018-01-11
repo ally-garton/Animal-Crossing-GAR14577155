@@ -1019,13 +1019,6 @@ html {
 }
 
 #demo_vid {
-	background-color: #FAF0CA;
-	color: #7C4A1B;
-	font-size: 5rem;
-	font-family: arvoregular;
-	width: 56rem;
-	height: 38rem;
-	border-radius: 2rem;
 	margin-left: 35rem;
 	padding-top: 5rem;
 }
@@ -1652,7 +1645,6 @@ html {
 	}
 	
 	#demo_vid {
-		font-size: 5rem;
 		width: 56rem;
 		height: 38rem;
 		margin-left: 35rem;
@@ -2217,15 +2209,15 @@ html {
 	}
 	
 	#demo_vid {
-		font-size: 4rem;
 		border-radius: 1.5rem;
 		margin-left: 22rem;
-		padding-top: 5rem;
+		padding-top: 2rem;
+		padding-bottom: 4rem;
 		height: 30rem;
 	}
 	
 	#video_footer {
-		top: 309.8rem;
+		top: 310.8rem;
 	}
 	
 	
@@ -2786,16 +2778,15 @@ html {
 	}
 	
 	#demo_vid {
-		font-size: 3rem;
-		width: 46rem;
-		height: 22rem;
-		border-radius: 1.5rem;
-		margin-left: 7rem;
-		padding-top: 5rem;
+		margin-left: 2rem;
+	}
+	
+	#demo_vid iframe{
+		width: 50rem;
 	}
 	
 	#video_footer {
-		top: 297.5rem;
+		top: 306.5rem;
 	}
 	
 
